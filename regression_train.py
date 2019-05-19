@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #DataSet Load
-data = pd.read_csv("F:\\E\\Mtech\\Datasets\\rossmann\\train.csv")
+data = pd.read_csv(r"F:\train.csv")
 print(data.head())
 print(data.describe())
 print(data.dtypes)
